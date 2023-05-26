@@ -13,4 +13,4 @@ def calc_prime(num):
             sosulist.append()
     return sosulist
 
-print(calc_prime(primenum))
+print(calc_prime(primenum),end="")
