@@ -22,4 +22,4 @@ def arafee(chi,car):
     arasum = totalfee(chi,car) - genfee(chi,car)
     return int(arasum)
 
-print("売上高：" + str(totalfee(chicken_value,carry_value)) +"、原価：" +str(genfee(chicken_value,carry_value)) + "、粗利：" + str(arafee(chicken_value,carry_value)))
+print("売上高：" + str(totalfee(chicken_value,carry_value)) +"、原価：" +str(genfee(chicken_value,carry_value)) + "、粗利：" + str(arafee(chicken_value,carry_value)),end="")
